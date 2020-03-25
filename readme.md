@@ -24,3 +24,6 @@ travis login
 ```
 travis encrypt 'GITHUB_TOKEN=<YOUR_GITHUB_TOKEN>' --add
 ```
+
+> travis-ci.com 不會吃到 travis.yml 的 env 要在 setting 自己新增
+
