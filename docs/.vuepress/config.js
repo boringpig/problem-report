@@ -7,12 +7,10 @@ module.exports = {
   // permalink: "/:year/:month/:day/:slug",
   themeConfig: {
     nav: [
-      { text: '首頁', link: '/' },
-      { text: '全家物流', link: '/family-mart' }
+      { text: '首頁', link: '/' }
     ],
     sidebar: [
-      ['/', '首頁'],
-      ['/family-mart', '全家回檔問題']
+      ['/', '首頁']
     ]
   }
 }
