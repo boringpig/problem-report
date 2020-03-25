@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>全家重複收款問題(Queue) | 功能回報處理紀錄</title>
+    <meta name="description" content="">
+    <meta name="generator" content="VuePress 1.4.0">
+    
+    
+    <link rel="preload" href="/problem-report/assets/css/0.styles.4843ba3a.css" as="style"><link rel="preload" href="/problem-report/assets/js/app.badddfd0.js" as="script"><link rel="preload" href="/problem-report/assets/js/2.eece6827.js" as="script"><link rel="preload" href="/problem-report/assets/js/6.989c5ab8.js" as="script"><link rel="prefetch" href="/problem-report/assets/js/10.465e938b.js"><link rel="prefetch" href="/problem-report/assets/js/3.b1dc9dc3.js"><link rel="prefetch" href="/problem-report/assets/js/4.5f60d4ea.js"><link rel="prefetch" href="/problem-report/assets/js/5.05f06788.js"><link rel="prefetch" href="/problem-report/assets/js/7.05ce6dae.js"><link rel="prefetch" href="/problem-report/assets/js/8.5700f8d8.js"><link rel="prefetch" href="/problem-report/assets/js/9.18086a84.js">
+    <link rel="stylesheet" href="/problem-report/assets/css/0.styles.4843ba3a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/problem-report/" class="home-link router-link-active"><!----> <span class="site-name">功能回報處理紀錄</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><!---->  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/problem-report/familyMart/全家回檔找不到檔案" class="sidebar-heading clickable open"><span>全家物流問題</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/problem-report/familyMart/全家回檔找不到檔案.html" class="sidebar-link">全家回檔找不到檔案</a></li><li><a href="/problem-report/familyMart/全家重複收款問題Queue.html" class="active sidebar-link">全家重複收款問題(Queue)</a></li><li><a href="/problem-report/familyMart/全家重複收款問題信用卡公司.html" class="sidebar-link">全家重複收款問題(信用卡公司)</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><a href="/problem-report/produce/Sku轉換錯誤" class="sidebar-heading clickable"><span>加工區問題</span> <span class="arrow right"></span></a> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="全家重複收款問題-queue"><a href="#全家重複收款問題-queue" class="header-anchor">#</a> 全家重複收款問題(Queue)</h1> <h2 id="問題描述"><a href="#問題描述" class="header-anchor">#</a> 問題描述</h2> <p>Shopify 訂單當付款狀態(transaction)改變，分別會發 authorization、capture webhook 到後台的 Queue 執行但執行順序不一定會造成 Order 的 Financial Status 跟 Shopify 付款狀態不ㄧ樣</p> <h2 id="處理方式"><a href="#處理方式" class="header-anchor">#</a> 處理方式</h2> <ul><li>後台晚上12點會有 order refresh 的排程去更新 order 為最新，但有時新訂單會在那時成立資料會有錯誤</li> <li>早上 11 點與下午 3 點會執行檢查已產生全家訂單檔(IR1)與 Shopify 付款狀態是否一致的排程</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/problem-report/familyMart/全家回檔找不到檔案.html" class="prev">
+        全家回檔找不到檔案
+      </a></span> <span class="next"><a href="/problem-report/familyMart/全家重複收款問題信用卡公司.html">
+        全家重複收款問題(信用卡公司)
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/problem-report/assets/js/app.badddfd0.js" defer></script><script src="/problem-report/assets/js/2.eece6827.js" defer></script><script src="/problem-report/assets/js/6.989c5ab8.js" defer></script>
+  </body>
+</html>
