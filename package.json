@@ -1,0 +1,16 @@
+{
+  "name": "problem-report",
+  "version": "1.0.0",
+  "description": "後端功能回報處理紀錄",
+  "main": "",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^1.4.0"
+  }
+}
